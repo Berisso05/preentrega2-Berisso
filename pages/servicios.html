@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrancoBerisso</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#">
+            <img src="../imagenes/logo.jpeg" alt="logito">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../pages/quienessomos.html">¿QUIENES SOMOS?</a></li>
+                <li><a href="../pages/productos.html">PRODUCTOS</a></li>
+                <li><a href="../pages/nuestrostrabajos.html">NUESTROS TRABAJOS</a></li>
+                <li><a href="../pages/servicios.html">SERVICIOS</a>
+            </ul>
+    </header>   
+    <h2 class="h2servicios">Aqui puedes contactarnos para algunos de nuestros servicios</h2>
+<main class="mainServicios">
+    <section>
+        <form method="post">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="nombre">Apellido y Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Nuestros servicios:</legend>
+                <label for="servicios">Servicios:</label>
+                <select id="servicios" name="servicios">
+                    <option value="armadopc">armado de pc</option>
+                    <option value="servicepc">service pc</option>
+                    <option value="servicenotebook">service notebook</option>
+                    <option value="serviceconsola">service consolas</option>
+                    <option value="otros">Otro</option>
+                </select>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </section>
+</main>
+    
+    <section class="fieldsetServicios">
+        <br>
+        <h3>Este es un antes y un despues de una pc que le hicimos service:</h3>
+            <img src="../imagenes/antes.jpg" alt="despues">
+            <img src="../imagenes/tp2.jpg" alt="despues">
+    </section>
+
+    <footer class="footer">
+        <div>
+            <ul>
+                <li><img src="../imagenes/descarga.png" alt="logos"></li>
+                <li><img src="../imagenes/images.jpg" alt="logos"></li>
+            </ul>
+        </div>
+
+        </div class="contact">
+        <h4>Información de contacto</h4>
+        <p>Teléfono: 387-432-3234</p>
+        <p>Dirección: Chacarita</p>
+        <p>Email: coderbeca@gmail.com</p>
+        </div>
+    </footer>
+
+   
+
+</body>
+</html>

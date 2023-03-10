@@ -1,0 +1,233 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+
+body {
+        background-color: white;
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "main   main   main"
+        "main   main   main"
+        "footer footer footer";
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 100px auto auto 200px;
+
+}
+
+header {
+        background-color: blueviolet;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        grid-area: header;
+}
+
+main {
+        grid-area: main;
+}
+
+header li {
+        padding: 0 20px;
+}
+
+header img {
+        width: 90px;
+}
+
+nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+}
+
+header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+}
+
+
+#nn {
+        text-align: center;
+        height: 50vh;
+        padding-top: 25vh;
+        background-color: white;
+
+}
+
+#nn .op {
+        font-size: 1.7rem;
+        margin: 15px;
+        color: blueviolet;
+}
+
+#nn a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+
+}
+
+
+
+
+.boton {
+        text-decoration: none;
+        background-color: black;
+        color: blueviolet;
+        padding: 4px 10px;
+        margin: 15px 0;
+        display: inline-block;
+        border-radius: 20px;
+}
+
+#nn p {
+        margin: 40px;
+        font-size: 1.5rem;
+        color: blueviolet;
+}
+
+.buton {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 4px 10px;
+        margin: 20px 0;
+        display: inline-block;
+        border-radius: 20px;
+}
+
+.card {
+        background-color: blueviolet;
+        color: white;
+        text-align: center;
+        box-shadow: 2px 2px 15px blueviolet;
+        border-radius: 20px;
+        height: 200px;
+        width: 300px;
+        padding-top: 60px;
+        margin: 20px
+}
+
+.padre {
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.services {
+        color: blueviolet;
+        display: flex;
+        justify-content: center;
+}
+
+footer {
+        text-decoration: none;
+        background-color: blueviolet;
+        position: fixed;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        grid-area: foote;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-evenly;
+}
+
+footer ul li img {
+        width: 50px;
+        height: 50px;
+        
+}
+
+
+
+.parrafo-1 {
+        text-align: center;
+        margin-top: 150px;
+}
+
+.parrafo-canana {
+        text-align: center;
+        margin-top: 150px;
+}
+
+.canana-tomy {
+        text-align: center;
+}
+
+.imgTrabajos {
+        border: black;
+        padding: 300px;
+        height: 300px;
+        width: 350px;
+}
+
+.mainServicios {
+        color: blueviolet;
+        padding-top: 10px;
+        width: 300px;
+}
+
+.h2servicios {
+        padding-top: 150px;
+}
+
+.fieldsetServicios img {
+        width: 500px;
+        margin-left: 250px;
+}
+
+.fieldsetServicios {
+        color: blueviolet;
+}
+
+.fieldsetServicios h3 {
+        padding-left: 600px;
+}
+
+.imgTrabajos img {
+        margin: 5px;
+        width: 500px;
+        padding-top: 10px;
+}
+
+.nosotros p {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+}
+
+.nosotros img {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        width: 350px;
+        height: 450px;
+}
+
+#pr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+#pr img {
+        width: 500px;
+        height: 500px;
+        float: left;
+        padding: 10px;
+        margin-top: 100px;
+}
+
+
